@@ -53,13 +53,4 @@ http://www.springframework.org/schema/task http://www.springframework.org/schema
 	<bean
 		class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor">
 	</bean>
-
- 	<bean id="propertyConfigurer" class="com.opencodez.util.PropertiesUtils">
-		<property name="locations">
-			<list>
-				<value>classpath:app-custom.properties</value>
-			</list>
-		</property>
-	</bean> 
-
 </beans>
